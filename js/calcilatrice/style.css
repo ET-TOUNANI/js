@@ -1,0 +1,29 @@
+*{
+    font-weight: bolder;
+}
+section  {
+    width: 384px;
+    border: 1px solid red;
+    margin: auto;
+    height: 500px;
+    background-color: gray;
+}
+
+input{
+    width: 340px;
+    margin-top: 30px;
+    padding: 20px;
+}
+#sub{
+    text-align: center;
+}
+button{
+    padding: 20px;
+    margin:20px;
+    text-align: center;
+    background-color:wheat;
+}
+#equal{
+    background-color:rgb(118, 240, 199);
+    width:150px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <input id="champ" type="text">
+        <table class="letter">
+            <tr>
+                <td onclick="writeC('A')" value="A">A</td>
+                <td onclick="writeC('Z')" value="Z">Z</td>
+                <td onclick="writeC('E')" value="E">E</td>
+                <td onclick="writeC('R')" value="R">R</td>
+                <td onclick="writeC('T')" value="T">T</td>
+                <td onclick="writeC('Y')" value="Y">Y</td>
+                <td onclick="writeC('U')" value="U">U</td>
+                <td onclick="writeC('I')" value="I">I</td>
+                <td onclick="writeC('O')" value="O">O</td>
+                <td onclick="writeC('P')" value="P">P</td>
+            </tr>
+            <tr>
+                <td onclick="writeC('Q')" value="Q">Q</td>
+                <td onclick="writeC('S')" value="S">S</td>
+                <td onclick="writeC('D')" value="D">D</td>
+                <td onclick="writeC('F')" value="F">F</td>
+                <td onclick="writeC('G')" value="G">G</td>
+                <td onclick="writeC('H')" value="H">H</td>
+                <td onclick="writeC('J')" value="J">J</td>
+                <td onclick="writeC('K')" value="K">K</td>
+                <td onclick="writeC('L')" value="L">L</td>
+                <td onclick="writeC('M')" value="M">M</td>
+            </tr>
+            <tr>
+                <td onclick="writeC('<')" value="<"><</td>
+                <td onclick="writeC('W')" value="W">W</td>
+                <td onclick="writeC('X')" value="X">X</td>
+                <td onclick="writeC('C')" value="C">C</td>
+                <td onclick="writeC('V')" value="V">V</td>
+                <td onclick="writeC('B')" value="B">B</td>
+                <td onclick="writeC('N')" value="N">N</td>
+                <td onclick="writeC('?')" value="?">?</td>
+                <td onclick="writeC('.')" value=".">.</td>
+                <td onclick="writeC('/')" value="/">/</td>
+            </tr>
+        </table>
+            <button id="btn1" onclick="deleteC()" >Delete</button>
+            <button id="btn2" onclick="deleteAll()" >Clear all</button>
+        
+        
+    </section>
+    <script src="scrp.js"></script>
+</body>
+</html>
